@@ -5,3 +5,5 @@ For reference to which boot camp I am taking, see the link below to find the Ude
 
 The Complete 2021 Web Development Bootcamp:
     https://www.udemy.com/course/the-complete-web-development-bootcamp/
+    
+Wanna check out my progress live? Head over to my site: https://apatel544.github.io/web-development-boot-camp/
