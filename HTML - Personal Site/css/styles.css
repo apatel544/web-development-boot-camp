@@ -12,3 +12,7 @@
     border-color: grey;
     width: 5%;
 }
+
+a:hover {
+  color: orange;
+}
