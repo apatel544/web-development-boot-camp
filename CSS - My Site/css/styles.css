@@ -1,34 +1,71 @@
 body {
   margin: 0;
-  color: white;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
 }
 
-/* div {
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #11999E;
+}
+
+.sub-intro{
+  font-weight: normal;
+}
+.top-Container {
   background-color: #2F5D62;
-} */
-.topContainer {
-  background-color: #2F5D62;
+  position: relative;
+  padding-top: 100px;
 }
 
-.midContainer {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+.middle-Container {
+  /* background-color: #5E8B7E; */
 }
 
-.botContainer {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+.bottom-Container {
+  /* background-color: #A7C4BC; */
+  ;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.lang-row, .dev-row, .automation-row {
+margin: 0 auto;
+}
+.skills-table {
+  margin: 0 auto;
 }
 
 /* Style pallet
-2F5D62
-5E8B7E
-A7C4BC
-DFEEEA
+#2F5D62
+#5E8B7E
+#A7C4BC
+#DFEEEA
 */
