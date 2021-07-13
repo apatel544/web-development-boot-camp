@@ -1,7 +1,6 @@
 #title {
   background: #ff4c68;
   color: #fff;
-  font-weight: 300;
 }
 
 h1 {
@@ -11,12 +10,17 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
 body {
   font-family: 'Montserrat';
 }
 
-.container-fluid {
-  padding: 3% 15%;
+p {
+  color: #8f8f8f;
 }
 
 /* Navigation Bar */
@@ -46,9 +50,33 @@ body {
 }
 
 /* Title Image */
+.container-fluid {
+  padding: 3% 15%;
+}
+
 .title-img {
   width: 60%;
   transform: rotate(20deg);
+  /*goes over when brought to ipad screen size */
+}
+
+/* Features Sections */
+.features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
 
 /* Features Sections */
@@ -61,12 +89,4 @@ body {
   font-family: "Montserrat";
   font-weight: bold;
   text-align: center;
-}
-
-.feature-text {
-  color: #8f8f8f;
-}
-
-.feature-icon {
-  color: #ef8172;
 }
